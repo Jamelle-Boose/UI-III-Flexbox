@@ -111,9 +111,16 @@ nav img {
 }
 
 .section--1 div {
-	width: 75%;
+	width: 65%;
 	text-align: center;
 	font-size: 500%;
+	margin-top: 40px;
+}
+
+.section--1 div button {
+	background-color: white;
+	border: 1px solid black;
+	margin-bottom: 100px;
 }
 
 #div-features {
