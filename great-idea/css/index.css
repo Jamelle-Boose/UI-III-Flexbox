@@ -65,13 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-p,nav,img,section,address,footer {
+/* p,nav,img,section,address,footer {
 	border: 1px solid red;
-}
+} */
 
 .container {
 	width: 50%;
 	margin: 0 auto;
+	min-width: 876px;
+}
+
+main {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	margin: 40px 0 40px;
+	padding: 40px 0 40px;
 }
 
 .nav {
@@ -79,6 +87,19 @@ p,nav,img,section,address,footer {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.nav a {
+	text-decoration: none;
+	/* vertical-align: middle; */
+	/* align-items: center; */
+	color: grey;
+}
+
+nav img {
+	margin-left: 40px;
 }
 
 .section--1 {
@@ -86,4 +107,38 @@ p,nav,img,section,address,footer {
     flex-direction: row;
     flex-wrap: nowrap;
 		justify-content: space-between;
+		margin-top: 60px;
+}
+
+.section--1 div {
+	width: 75%;
+	text-align: center;
+}
+
+#div-features {
+    /* display: flex; */
+		/* flex-flow: column nowrap; */
+		width: 50%;
+}
+
+#div-about {
+	/* display: flex; */
+	/* flex-flow: column nowrap; */
+	width: 50%;
+}
+
+.section--2 {
+	display: flex;
+}
+
+.img--mid {
+padding: 40px 0 40px;
+}
+
+.section--3 {
+	display: flex;
+}
+
+.copyright {
+	text-align: center;
 }
