@@ -83,3 +83,65 @@ h1, h2, h3, h4, h5 {
   color: darkgrey;
 }
 
+.div-services {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+  padding-block-end: 20px;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.section-1 div {
+  border: 1px solid black;
+  background-color: #eeeeee;
+  width: 45%;
+  padding: 20px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.section-2 div {
+  border: 1px solid black;
+  background-color: #eeeeee;
+  width: 45%;
+  padding: 20px;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 60px;
+  border-bottom: 1px solid black;
+  padding-block-end: 40px;
+
+}
+
+.section-3 div {
+  border: 1px solid black;
+  background-color: #eeeeee;
+  width: 45%;
+  padding: 20px;
+}
+
+button {
+  margin-top: 20px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
