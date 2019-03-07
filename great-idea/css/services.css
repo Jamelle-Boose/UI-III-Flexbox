@@ -126,9 +126,8 @@ h1, h2, h3, h4, h5 {
   flex-wrap: nowrap;
   justify-content: space-between;
   margin-top: 60px;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   padding-block-end: 40px;
-
 }
 
 .section-3 div {
@@ -140,8 +139,45 @@ h1, h2, h3, h4, h5 {
 
 button {
   margin-top: 20px;
-  width: 150px;
+  width: 160px;
   padding: 10px;
   border-radius: 5px;
-  
+  border-style: solid;
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+}
+
+.div-some_facts {
+  margin-top: 0px;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.section-4 div {
+  width: 45%;
+}
+
+div ul {
+  margin-top: 20px;  
+}
+
+div ul li {
+  list-style-type: square;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.section-4 img {
+  height: 250px;
+}
+
+.copyright {
+  margin-top: 70px;
 }
